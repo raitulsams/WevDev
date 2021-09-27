@@ -6,15 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first Website</title>
+    <style>
+        input:focus {
+            font-weight: 700;
+            color: brown;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 24px;
+        }
+
+        li:first-child {
+            background-color: aquamarine;
+        }
+
+        li:last-child {
+            background-color: aqua;
+        }
+
+        li:nth-child(2n) {
+            font-family: fantasy;
+        }
+
+        li:nth-child(2n+1) {
+            font-weight: lighter;
+        }
+
+        a:visited {
+            color: brown;
+        }
+    </style>
 </head>
 
 <body>
     <div>
-        <p>
-            This is sams
-        </p>
-        
+        <p>This is a class A</p>
+        <p>This is a class B</p>
+    </div>
+    <div>
+        <input type="text" value="Type here">
+        <br>
+        <input type="text" value="Type here">
+    </div>
 
+    <div>
+        <ul>
+            <li>Alia</li>
+            <li>Dalia</li>
+            <li>Malia</li>
+            <li>Chalia</li>
+            <li>Kalia</li>
+            <li>Falia</li>
+            <li>Talia</li>
+        </ul>
+    </div>
+
+    <div>
+        <a href="https://www.youtube.com/">Youtube</a>
     </div>
 </body>
 
